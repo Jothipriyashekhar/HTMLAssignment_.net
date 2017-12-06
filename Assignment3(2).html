@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form  method="post" enctype="multipart/form-data">
+  First name: <input type="text" name="fname" placeholder="first name" ><br><br/>
+  Last name: <input type="text" name="lname" ><br><br/>
+  Email:<input type="email" name="mailid"  ><br><br/>
+  <input type="submit" formtarget="_blank" value="Submit" formnovalidate><br/>
+</form>
+
+<hr><br/>
+
+<form >
+  Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br/><br/>
+  Name:<input type = "text" minlength="5" maxlength="10" required><br/><br/>
+   Step:<input type="number" name="points" step="3"><br/><br/>
+    Select images: <input type="file" name="img" multiple><br/><br/>
+  <input type="submit">
+</form>
+ 
+</body>
+</html>
